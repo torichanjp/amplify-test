@@ -1,0 +1,7 @@
+frontend:
+  phases:
+    commands:
+      build:
+        - yarn build
+  artifacts:
+    baseDirectory: dist
