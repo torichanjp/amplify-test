@@ -10,6 +10,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
+    <p>テスト</p>
     <button type="button" @click="count++">カウントは {{ count }} です。</button>
     <p>
       Edit
