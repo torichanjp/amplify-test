@@ -4,4 +4,6 @@ frontend:
       build:
         - yarn build
   artifacts:
-    baseDirectory: dist
+    files:
+      - dist/**/*
+        #baseDirectory: dist
